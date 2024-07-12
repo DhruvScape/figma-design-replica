@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="flex justify-between items-center p-4 px-10">
+      <h1 class="text-2xl font-medium">QBC</h1>
+      <div class="space-x-8 hidden md:block">
+        <a href="#" class="text-red-600">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Artists</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="space-x-6">
+        <button class="border py-1 px-6 rounded-lg text-red-600 border-red-600">
+          Log In
+        </button>
+        <button class="border py-1 px-6 rounded-lg border-gray-800">
+          Sign Up
+        </button>
+      </div>
+    </nav>
+    <section
+      class="relative w-full bg-cover bg-center"
+      style="background-image: url('images/bg.jpg'); height: calc(100vh - 4rem)"
+    >
+      <h1
+        class="absolute top-10 right-10 text-2xl md:top-14 md:right-14 text-black md:text-4xl font-semibold"
+      >
+        <span class="text-red-600 text-5xl md:text-7xl">Hire</span> Skilled
+        Artists
+      </h1>
+      <h1
+        class="absolute text-2xl bottom-40 left-10 md:bottom-72 md:left-14 text-black md:text-4xl font-semibold"
+      >
+        <span class="text-red-600 text-5xl md:text-7xl">Earn</span> Effortlessly
+        <br />
+        As An Artist
+      </h1>
+      <div
+        class="absolute bottom-10 left-1/2 transform -translate-x-1/2 space-x-24 flex justify-center items-center bg-white/50 p-3 rounded-lg"
+      >
+        <button class="border py-1 px-6 rounded-lg text-red-600 border-red-600">
+          Hire Now
+        </button>
+        <button class="border py-1 px-6 rounded-lg border-gray-800">
+          Join Now
+        </button>
+      </div>
+      <div
+        class="absolute bottom-0 bg-black h-10 w-full flex justify-end items-center"
+      >
+        <h3 class="text-slate-300 text-xl text-right pr-6">
+          Happy Client * 45885 * Income mode *
+        </h3>
+      </div>
+    </section>
+    <section class="mb-12">
+      <h2 class="text-5xl font-bold text-center my-8 text-red-700">
+        Our Services
+      </h2>
+      <div
+        class="flex flex-col md:flex-row justify-center items-center md:space-x-4 space-y-6 md:space-y-0"
+      >
+        <div
+          class="relative w-80 md:w-64 h-80 bg-cover bg-center"
+          style="background-image: url('images/61.jpg')"
+        >
+          <div
+            class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-4"
+          >
+            Performance Opportunities
+          </div>
+        </div>
+        <div
+          class="relative w-80 md:w-64 h-80 bg-cover bg-center"
+          style="
+            background-image: url('https://randomuser.me/api/portraits/women/86.jpg');
+          "
+        >
+          <div
+            class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-4"
+          >
+            Choreography Services
+          </div>
+        </div>
+        <div
+          class="relative w-80 md:w-64 h-80 bg-cover bg-center"
+          style="
+            background-image: url('https://randomuser.me/api/portraits/men/14.jpg');
+          "
+        >
+          <div
+            class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-4"
+          >
+            Mentorship and Coaching
+          </div>
+        </div>
+        <div
+          class="relative w-80 md:w-64 h-80 bg-cover bg-center"
+          style="
+            background-image: url('https://randomuser.me/api/portraits/men/5.jpg');
+          "
+        >
+          <div
+            class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-4"
+          >
+            Choreography Services
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-5xl font-bold text-center mb-8 text-red-700">
+        Top Artists
+      </h2>
+      <div
+        class="flex justify-center flex-col md:flex-row items-center md:space-x-4 space-y-6 md:space-y-0"
+      >
+        <div
+          class="relative w-80 md:w-64 bg-white shadow-lg rounded-lg overflow-hidden"
+        >
+          <img
+            src="https://randomuser.me/api/portraits/men/14.jpg"
+            alt="Artist 1"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Banksy</h3>
+            <div class="flex items-center mb-2">
+              <div class="text-yellow-500 flex">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="text-gray-600">Bristol, UK</p>
+            <span class="text-xs bg-gray-200 text-gray-800 px-2 py-1 rounded"
+              >Dance Educator</span
+            >
+          </div>
+        </div>
+        <div
+          class="relative w-80 md:w-64 bg-white shadow-lg rounded-lg overflow-hidden"
+        >
+          <img
+            src="https://randomuser.me/api/portraits/men/5.jpg"
+            alt="Artist 2"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Yayoi Kusama</h3>
+            <div class="flex items-center mb-2">
+              <div class="text-yellow-500 flex">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="text-gray-600">Tokyo, Japan</p>
+            <span class="text-xs bg-gray-200 text-gray-800 px-2 py-1 rounded"
+              >Dance Educator</span
+            >
+          </div>
+        </div>
+        <div
+          class="relative w-80 md:w-64 bg-white shadow-lg rounded-lg overflow-hidden"
+        >
+          <img
+            src="https://randomuser.me/api/portraits/women/86.jpg"
+            alt="Artist 3"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Ai Weiwei</h3>
+            <div class="flex items-center mb-2">
+              <div class="text-yellow-500 flex">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="text-gray-600">Tokyo, Japan</p>
+            <span class="text-xs bg-gray-200 text-gray-800 px-2 py-1 rounded"
+              >Dance Educator</span
+            >
+          </div>
+        </div>
+        <div
+          class="relative w-80 md:w-64 bg-white shadow-lg rounded-lg overflow-hidden"
+        >
+          <img
+            src="https://randomuser.me/api/portraits/men/37.jpg"
+            alt="Artist 4"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Marina Abram.</h3>
+            <div class="flex items-center mb-2">
+              <div class="text-yellow-500 flex">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="text-gray-600">Tokyo, Japan</p>
+            <span class="text-xs bg-gray-200 text-gray-800 px-2 py-1 rounded"
+              >Dance Educator</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="text-center flex flex-col md:flex-row justify-around items-center mt-24 p-2 md:p-0"
+    >
+      <h2 class="text-5xl md:text-8xl font-bold mb-8 text-left">
+        Why <br />
+        Choose <br />
+        Us
+      </h2>
+      <div
+        class="flex flex-wrap justify-center items-center space-y-4 md:space-y-0"
+      >
+        <div class="w-full">
+          <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="https://media.istockphoto.com/id/1277387415/photo/women-having-fun-dancing-in-fitness-class.jpg?s=612x612&w=0&k=20&c=RBJrsGIBRh6IUumRIHGEsvkZbeCEzYt41ART3pvSU9I="
+              alt="For Studios"
+              class="w-full h-84 object-cover opacity-75"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center text-white"
+            >
+              <div class="text-left p-4 flex flex-col justify-start gap-10">
+                <h3 class="text-5xl">For Studios :</h3>
+                <ul class="list-disc pl-5 text-2xl">
+                  <li>Versatile Roaster</li>
+                  <li>Professional</li>
+                  <li>
+                    Referenced &<br />
+                    Background Checked
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="flex justify-around items-center flex-col md:flex-row mt-24 mx-auto max-w-8xl"
+    >
+      <div class="w-full md:w-1/3 p-4">
+        <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+          <img
+            src="https://media.istockphoto.com/id/1277387415/photo/women-having-fun-dancing-in-fitness-class.jpg?s=612x612&w=0&k=20&c=RBJrsGIBRh6IUumRIHGEsvkZbeCEzYt41ART3pvSU9I="
+            alt="For Studios"
+            class="w-full h-80 object-cover opacity-75"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center text-white"
+          >
+            <div class="text-left p-4 flex flex-col justify-start gap-10">
+              <h3 class="text-5xl">For Instructor :</h3>
+              <ul class="list-disc pl-5 text-2xl">
+                <li>Flexible hours</li>
+                <li>Financial Freedom</li>
+                <li>Do what you love</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-4 text-left">
+        <h2 class="text-8xl font-bold">
+          <span class="text-5xl">Ballroom</span><br />
+          <span class="text-4xl ml-32">Modern</span><br />
+          <span class="text-3xl">Contemporary</span>
+        </h2>
+        <img
+          src="images/illus.jpg"
+          alt="Illustration"
+          class="mt-4 w-3/3 h-3/3 mx-auto"
+        />
+      </div>
+    </section>
+    <section>
+      <div
+        class="bg-red-800 p-52 w-full flex justify-center items-center my-10 relative"
+      >
+        <h1 class="absolute top-12 left-12 text-5xl font-semibold underline">
+          Testimonials
+        </h1>
+        <div class="text-black bg-white p-10 md:p-20 md:w-2/3">
+          Building relationships and having fun through community exists
+        </div>
+        <div
+          class="absolute bg-black text-white px-10 py-4 md:p-4 md:w-80 top-32 left-[150px] md:top-40 md:left-[450px] pl-10 flex justify-between"
+        >
+          <div>
+            <h1 class="text-xl">Kritish Watson</h1>
+            <p>Marketing</p>
+            <p>Coordinator</p>
+          </div>
+          <div class="text-yellow-500 flex mt-2">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+              />
+            </svg>
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+              />
+            </svg>
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+              />
+            </svg>
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+              />
+            </svg>
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .587l3.668 7.431 8.2 1.2-5.93 5.773 1.4 8.17L12 18.896 4.662 23.16l1.4-8.17-5.93-5.773 8.2-1.2L12 .587z"
+              />
+            </svg>
+          </div>
+        </div>
+        <img
+          class="absolute top-28 left-12 md:top-36 md:left-[350px]"
+          src="images/61.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <footer class="bg-gray-100 p-8">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-between">
+          <div class="w-full md:w-1/4 mb-8 md:mb-0">
+            <h4 class="text-xl font-bold mb-4">Our Mission</h4>
+            <ul>
+              <li>Mission</li>
+              <li>Values</li>
+              <li>Vision</li>
+              <li>Goal</li>
+              <li>Impact</li>
+              <li>Community</li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 mb-8 md:mb-0">
+            <h4 class="text-xl font-bold mb-4">Connect With Us</h4>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Pinterest</li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 mb-8 md:mb-0">
+            <h4 class="text-xl font-bold mb-4">For Studios</h4>
+            <ul>
+              <li>Search</li>
+              <li>Book</li>
+              <li>Connect</li>
+              <li>Discover</li>
+              <li>Engage</li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 mb-8 md:mb-0">
+            <h4 class="text-xl font-bold mb-4">Subscribe</h4>
+            <form class="flex">
+              <input
+                type="email"
+                placeholder="Email address"
+                class="flex-1 px-4 py-2 border rounded-l-lg"
+              />
+              <button class="bg-red-500 text-white px-4 py-2 rounded-r-lg">
+                →
+              </button>
+            </form>
+            <address class="mt-4 text-sm">
+              Address: xyz, Canada<br />
+              Phone No.: +1234567898<br />
+              Email: xyz@qbc.com
+            </address>
+          </div>
+        </div>
+        <div class="mt-8 border-t pt-4 flex justify-between items-center">
+          <div>
+            <img src="logo.png" alt="Quick Ball Change Logo" class="h-8" />
+          </div>
+          <div class="flex space-x-4">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#"
+              ><img src="linkedin.png" alt="LinkedIn" class="h-6"
+            /></a>
+            <a href="#"
+              ><img src="facebook.png" alt="Facebook" class="h-6"
+            /></a>
+            <a href="#"><img src="twitter.png" alt="Twitter" class="h-6" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
